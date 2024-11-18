@@ -4,5 +4,9 @@
 	],
 	"/about": [
 		"src/routes/about/+page.js"
-	]
+	],
+	"/kitex": [],
+	"/nammakudla": [],
+	"/northeast": [],
+	"/ready": []
 }
