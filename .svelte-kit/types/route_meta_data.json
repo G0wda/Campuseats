@@ -1,0 +1,13 @@
+{
+	"/": [
+		"src/routes/+page.js"
+	],
+	"/about": [
+		"src/routes/about/+page.js"
+	],
+	"/cart": [],
+	"/checkout": [],
+	"/menu": [],
+	"/offers": [],
+	"/restaurants": []
+}

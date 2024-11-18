@@ -1,0 +1,28 @@
+@import '@fontsource/poppins';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light text-dark font-sans;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-full font-semibold transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary/90;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-white hover:bg-secondary/90;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+}
