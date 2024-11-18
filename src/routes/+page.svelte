@@ -26,8 +26,17 @@
 	</div>
 </div>
 
-<section class="w-full h-[100px] ">
-	<h1 class="">Categories</h1>
+<section class="w-full h-[100px] border-2 py-1 px-1x flex justify-center">
+	<h1 class="text-2xl">Categories</h1><br>
+	<br>
+	<div class="flex justify-start">
+		<a href="/categories/juice-drinks">Juices and Drinks </a>
+		<a href="/categories/meals">Meals</a>
+		<a href="/categories/chats">Chats</a>
+		<a href="/categories/icecream">Ice Creams</a>
+		<a href="/categories/bakey">Bakery and Cakes</a>
+		<a href="/categories/chinesse">chinesse</a>
+	</div>
 </section>
 
 <section class="py-16">
