@@ -7,6 +7,16 @@
 	<meta name="description" content="Order food online from the best restaurants in your area" />
 </svelte:head>
 
+
+<section class="w-full h-[70px] bg-slate-100 p-6">
+	<div class="w-full h-[70px] flex justify-evenly items-start ">
+		<a href="/ready" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Ready to serve</a>
+		<a href="/nammakudla" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Namma Kudla</a>
+		<a href="/kitex" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg  hover:bg-slate-300">Kitchen Express</a>
+		<a href="/northeast" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg  hover:bg-slate-300">NorthEast</a>
+	</div>
+</section>
+
 <div class="relative h-[300px] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80')">
 	<div class="absolute inset-0 bg-dark/50"></div>
 	<div class="container relative h-full flex flex-col items-center justify-center text-white text-center">
@@ -15,6 +25,10 @@
 	
 	</div>
 </div>
+
+<section class="w-full h-[100px] ">
+	<h1 class="">Categories</h1>
+</section>
 
 <section class="py-16">
 	<div class="container">

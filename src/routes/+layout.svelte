@@ -26,7 +26,7 @@
 
 	<footer class="bg-dark text-white py-12">
 		<div class="container">
-			<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 				<div>
 					<h3 class="text-xl font-bold mb-4">CampusEats</h3>
 					<p class="text-gray-400">Delicious food delivered to you in minutes</p>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-				<p>&copy; 2024 FoodieHub. All rights reserved.</p>
+				<p>&copy; 2024 CampusEats. All rights reserved.</p>
 			</div>
 		</div>
 	</footer>
