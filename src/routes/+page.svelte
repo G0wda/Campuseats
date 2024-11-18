@@ -26,16 +26,16 @@
 	</div>
 </div>
 
-<section class="w-full h-[100px] border-2 py-1 px-1x flex justify-center">
-	<h1 class="text-2xl">Categories</h1><br>
+<section class="w-full h-[120px] border-2 py-1 px-1x bg-slate-200  ">
+	<h1 class="text-2xl text-center">Categories</h1>
 	<br>
-	<div class="flex justify-start">
-		<a href="/categories/juice-drinks">Juices and Drinks </a>
-		<a href="/categories/meals">Meals</a>
-		<a href="/categories/chats">Chats</a>
-		<a href="/categories/icecream">Ice Creams</a>
-		<a href="/categories/bakey">Bakery and Cakes</a>
-		<a href="/categories/chinesse">chinesse</a>
+	<div class="flex justify-around items-start">
+		<a href="/categories/juice-drinks" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300" >Juices and Drinks </a>
+		<a href="/categories/meals" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Meals</a>
+		<a href="/categories/chats" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Chats</a>
+		<a href="/categories/icecream" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Ice Creams</a>
+		<a href="/categories/bakey" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Bakery and Cakes</a>
+		<a href="/categories/chinesse" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Chinesse</a>
 	</div>
 </section>
 

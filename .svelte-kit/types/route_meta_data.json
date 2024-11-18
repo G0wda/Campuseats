@@ -5,6 +5,11 @@
 	"/about": [
 		"src/routes/about/+page.js"
 	],
+	"/categories/bakery": [],
+	"/categories/chinesse": [],
+	"/categories/icecream": [],
+	"/categories/juice-drinks": [],
+	"/categories/meals": [],
 	"/kitex": [],
 	"/nammakudla": [],
 	"/northeast": [],

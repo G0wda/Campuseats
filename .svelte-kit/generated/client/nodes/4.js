@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/kitex/+page.svelte";
+export { default as component } from "../../../../src/routes/categories/bakery/+page.svelte";
