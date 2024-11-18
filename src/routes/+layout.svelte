@@ -17,7 +17,6 @@
 					<Search size={20} />
 				</button>
 			</div>
-			
 		</nav>
 	</header>
 
