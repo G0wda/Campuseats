@@ -6,7 +6,7 @@
 <div class="min-h-screen flex flex-col">
 	<header class="bg-white shadow-sm">
 		<nav class="container py-4 flex items-center justify-around">
-			<a href="/" class="text-2xl font-bold text-primary">Campuseats</a>
+			<a href="/" class="text-2xl font-bold text-primary">CampusEats</a>
 			<div class="w-full max-w-2xl bg-white rounded-full p-2 flex">
 				<input 
 					type="text" 
