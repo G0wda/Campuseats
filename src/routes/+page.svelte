@@ -11,6 +11,7 @@
 <section class="w-full h-[70px] bg-slate-100 p-6">
 	<div class="w-full h-[70px] flex justify-evenly items-start ">
 		<a href="/ready" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Ready to serve</a>
+		<a href="/new" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">New Arrivals</a>
 		<a href="/nammakudla" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg hover:bg-slate-300">Namma Kudla</a>
 		<a href="/kitex" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg  hover:bg-slate-300">Kitchen Express</a>
 		<a href="/northeast" class="py-1 border-2 border-r-gray-300 border-spacing-1 px-4 rounded-lg  hover:bg-slate-300">NorthEast</a>
