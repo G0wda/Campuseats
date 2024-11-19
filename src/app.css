@@ -1,28 +1,20 @@
-@import '@fontsource/poppins';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-slate-300 text-dark font-sans;
-  }
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@layer components {
-  .btn {
-    @apply px-6 py-3 rounded-full font-semibold transition-all duration-300;
-  }
-  
-  .btn-primary {
-    @apply btn bg-primary text-white hover:bg-primary/90;
-  }
-  
-  .btn-secondary {
-    @apply btn bg-secondary text-white hover:bg-secondary/90;
-  }
-  
-  .container {
-    @apply max-w-7xl mx-auto px-4;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
