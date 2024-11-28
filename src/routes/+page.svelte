@@ -17,7 +17,7 @@
       <div class="absolute inset-0 bg-black/50"></div>
     </div>
     <div class="relative text-center text-white">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to College Canteen</h1>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Campuseats</h1>
       <p class="text-xl md:text-2xl">Delicious food at your fingertips</p>
     </div>
   </section>

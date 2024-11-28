@@ -42,6 +42,7 @@
     
     <div class="border-t border-gray-700 mt-8 pt-6 text-center">
       <p>&copy; {new Date().getFullYear()} College Canteen. All rights reserved.</p>
+      <p>Designed and Developed by Edwin's Lab</p>
     </div>
   </div>
 </footer>
