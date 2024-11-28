@@ -8,7 +8,6 @@
   export let price;
   export let image;
   export let category;
-  export let description;
 
   function handleAddToCart(e) {
     e.preventDefault();
