@@ -33,14 +33,7 @@
         </div>
       </div>
       
-      <div>
-        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
-        <ul class="space-y-2">
-          <li><a href="/about" class="hover:text-orange-400">About Us</a></li>
-          <li><a href="/terms" class="hover:text-orange-400">Terms & Conditions</a></li>
-          <li><a href="/privacy" class="hover:text-orange-400">Privacy Policy</a></li>
-        </ul>
-      </div>
+     
     </div>
     
     <div class="border-t border-gray-700 mt-8 pt-6 text-center">
