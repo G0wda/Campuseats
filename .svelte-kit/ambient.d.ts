@@ -5,9 +5,9 @@
 /// <reference types="@sveltejs/kit" />
 
 /**
- * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
+ * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://svelte.dev/docs/kit/$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://svelte.dev/docs/kit/configuration#env) (if configured).
  * 
- * _Unlike_ [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
+ * _Unlike_ [`$env/dynamic/private`](https://svelte.dev/docs/kit/$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
  * 
  * ```ts
  * import { API_KEY } from '$env/static/private';
@@ -26,77 +26,43 @@
  * ```
  */
 declare module '$env/static/private' {
-<<<<<<< HEAD
-	export const LESS_TERMCAP_se: string;
-	export const POWERSHELL_TELEMETRY_OPTOUT: string;
-=======
-	export const GJS_DEBUG_TOPICS: string;
 	export const LESSOPEN: string;
+	export const npm_package_dev: string;
 	export const LANGUAGE: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 	export const USER: string;
 	export const npm_config_user_agent: string;
 	export const XDG_SEAT: string;
 	export const XDG_SESSION_TYPE: string;
 	export const GIT_ASKPASS: string;
 	export const npm_node_execpath: string;
+	export const npm_package_resolved: string;
 	export const SHLVL: string;
 	export const npm_config_noproxy: string;
 	export const HOME: string;
-<<<<<<< HEAD
+	export const CHROME_DESKTOP: string;
 	export const OLDPWD: string;
-	export const CHROME_DESKTOP: string;
-	export const DESKTOP_SESSION: string;
-=======
-	export const CHROME_DESKTOP: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
+	export const npm_package_optional: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const npm_package_json: string;
-<<<<<<< HEAD
-	export const VSCODE_GIT_ASKPASS_MAIN: string;
-	export const LESS_TERMCAP_so: string;
-	export const VSCODE_GIT_ASKPASS_NODE: string;
-	export const npm_config_userconfig: string;
-	export const npm_config_local_prefix: string;
-	export const SYSTEMD_EXEC_PID: string;
-	export const NMAP_PRIVILEGED: string;
-=======
-	export const GIO_LAUNCHED_DESKTOP_FILE: string;
+	export const npm_package_engines_node: string;
 	export const GTK_MODULES: string;
 	export const XDG_SEAT_PATH: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
+	export const npm_package_integrity: string;
 	export const CINNAMON_VERSION: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const COLORTERM: string;
-	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 	export const COLOR: string;
-<<<<<<< HEAD
-	export const GNOME_KEYRING_CONTROL: string;
-	export const COMMAND_NOT_FOUND_INSTALL_PROMPT: string;
-	export const npm_config_metrics_registry: string;
-	export const IM_CONFIG_PHASE: string;
-	export const QT_QPA_PLATFORMTHEME: string;
-	export const LOGNAME: string;
-	export const QT_AUTO_SCREEN_SCALE_FACTOR: string;
-	export const LESS_TERMCAP_us: string;
-	export const _: string;
-	export const npm_config_prefix: string;
-	export const MEMORY_PRESSURE_WATCH: string;
-	export const XDG_SESSION_CLASS: string;
-	export const USER_ZDOTDIR: string;
-	export const USERNAME: string;
-=======
+	export const INSIDE_NEMO_PYTHON: string;
 	export const npm_config_metrics_registry: string;
 	export const LOGNAME: string;
 	export const _: string;
 	export const npm_config_prefix: string;
 	export const XDG_SESSION_CLASS: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 	export const TERM: string;
 	export const XDG_SESSION_ID: string;
 	export const npm_config_cache: string;
@@ -104,37 +70,22 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const PATH: string;
 	export const SESSION_MANAGER: string;
-<<<<<<< HEAD
-	export const _JAVA_OPTIONS: string;
-	export const GDM_LANG: string;
-	export const NODE: string;
-	export const npm_package_name: string;
-	export const GNOME_TERMINAL_SCREEN: string;
-	export const XDG_MENU_PREFIX: string;
-=======
 	export const GDM_LANG: string;
 	export const GTK3_MODULES: string;
 	export const NODE: string;
 	export const npm_package_name: string;
 	export const XDG_SESSION_PATH: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
+	export const GNOME_TERMINAL_SCREEN: string;
 	export const XDG_RUNTIME_DIR: string;
 	export const GDK_BACKEND: string;
 	export const DISPLAY: string;
 	export const LANG: string;
 	export const XDG_CURRENT_DESKTOP: string;
-<<<<<<< HEAD
-	export const POWERSHELL_UPDATECHECK: string;
-	export const VSCODE_INJECTION: string;
 	export const XDG_SESSION_DESKTOP: string;
-	export const GNOME_TERMINAL_SERVICE: string;
-	export const XMODIFIERS: string;
-=======
-	export const XDG_SESSION_DESKTOP: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 	export const XAUTHORITY: string;
 	export const LS_COLORS: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
+	export const GNOME_TERMINAL_SERVICE: string;
 	export const TERM_PROGRAM: string;
 	export const npm_lifecycle_script: string;
 	export const SSH_AUTH_SOCK: string;
@@ -144,19 +95,16 @@ declare module '$env/static/private' {
 	export const npm_package_version: string;
 	export const npm_lifecycle_event: string;
 	export const QT_ACCESSIBILITY: string;
+	export const NO_AT_BRIDGE: string;
 	export const GDMSESSION: string;
 	export const LESSCLOSE: string;
+	export const npm_package_dev_optional: string;
 	export const GPG_AGENT_INFO: string;
-<<<<<<< HEAD
-	export const QT_IM_MODULE: string;
-	export const LESS_TERMCAP_md: string;
-=======
-	export const GJS_DEBUG_OUTPUT: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const XDG_VTNR: string;
 	export const npm_config_globalconfig: string;
 	export const npm_config_init_module: string;
+	export const npm_package_peer: string;
 	export const PWD: string;
 	export const npm_config_globalignorefile: string;
 	export const npm_execpath: string;
@@ -164,18 +112,13 @@ declare module '$env/static/private' {
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
 	export const npm_command: string;
-<<<<<<< HEAD
 	export const VTE_VERSION: string;
-	export const MEMORY_PRESSURE_WRITE: string;
-=======
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 	export const INIT_CWD: string;
 	export const EDITOR: string;
-	export const NODE_ENV: string;
 }
 
 /**
- * Similar to [`$env/static/private`](https://kit.svelte.dev/docs/modules#$env-static-private), except that it only includes environment variables that begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
+ * Similar to [`$env/static/private`](https://svelte.dev/docs/kit/$env-static-private), except that it only includes environment variables that begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
  * 
  * Values are replaced statically at build time.
  * 
@@ -188,7 +131,7 @@ declare module '$env/static/public' {
 }
 
 /**
- * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/main/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
+ * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/main/packages/adapter-node) (or running [`vite preview`](https://svelte.dev/docs/kit/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://svelte.dev/docs/kit/configuration#env) (if configured).
  * 
  * This module cannot be imported into client-side code.
  * 
@@ -203,77 +146,43 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-<<<<<<< HEAD
-		LESS_TERMCAP_se: string;
-		POWERSHELL_TELEMETRY_OPTOUT: string;
-=======
-		GJS_DEBUG_TOPICS: string;
 		LESSOPEN: string;
+		npm_package_dev: string;
 		LANGUAGE: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 		USER: string;
 		npm_config_user_agent: string;
 		XDG_SEAT: string;
 		XDG_SESSION_TYPE: string;
 		GIT_ASKPASS: string;
 		npm_node_execpath: string;
+		npm_package_resolved: string;
 		SHLVL: string;
 		npm_config_noproxy: string;
 		HOME: string;
-<<<<<<< HEAD
+		CHROME_DESKTOP: string;
 		OLDPWD: string;
-		CHROME_DESKTOP: string;
-		DESKTOP_SESSION: string;
-=======
-		CHROME_DESKTOP: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
+		npm_package_optional: string;
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		npm_package_json: string;
-<<<<<<< HEAD
-		VSCODE_GIT_ASKPASS_MAIN: string;
-		LESS_TERMCAP_so: string;
-		VSCODE_GIT_ASKPASS_NODE: string;
-		npm_config_userconfig: string;
-		npm_config_local_prefix: string;
-		SYSTEMD_EXEC_PID: string;
-		NMAP_PRIVILEGED: string;
-=======
-		GIO_LAUNCHED_DESKTOP_FILE: string;
+		npm_package_engines_node: string;
 		GTK_MODULES: string;
 		XDG_SEAT_PATH: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
+		npm_package_integrity: string;
 		CINNAMON_VERSION: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 		DBUS_SESSION_BUS_ADDRESS: string;
 		COLORTERM: string;
-		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 		COLOR: string;
-<<<<<<< HEAD
-		GNOME_KEYRING_CONTROL: string;
-		COMMAND_NOT_FOUND_INSTALL_PROMPT: string;
-		npm_config_metrics_registry: string;
-		IM_CONFIG_PHASE: string;
-		QT_QPA_PLATFORMTHEME: string;
-		LOGNAME: string;
-		QT_AUTO_SCREEN_SCALE_FACTOR: string;
-		LESS_TERMCAP_us: string;
-		_: string;
-		npm_config_prefix: string;
-		MEMORY_PRESSURE_WATCH: string;
-		XDG_SESSION_CLASS: string;
-		USER_ZDOTDIR: string;
-		USERNAME: string;
-=======
+		INSIDE_NEMO_PYTHON: string;
 		npm_config_metrics_registry: string;
 		LOGNAME: string;
 		_: string;
 		npm_config_prefix: string;
 		XDG_SESSION_CLASS: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 		TERM: string;
 		XDG_SESSION_ID: string;
 		npm_config_cache: string;
@@ -281,37 +190,22 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		PATH: string;
 		SESSION_MANAGER: string;
-<<<<<<< HEAD
-		_JAVA_OPTIONS: string;
-		GDM_LANG: string;
-		NODE: string;
-		npm_package_name: string;
-		GNOME_TERMINAL_SCREEN: string;
-		XDG_MENU_PREFIX: string;
-=======
 		GDM_LANG: string;
 		GTK3_MODULES: string;
 		NODE: string;
 		npm_package_name: string;
 		XDG_SESSION_PATH: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
+		GNOME_TERMINAL_SCREEN: string;
 		XDG_RUNTIME_DIR: string;
 		GDK_BACKEND: string;
 		DISPLAY: string;
 		LANG: string;
 		XDG_CURRENT_DESKTOP: string;
-<<<<<<< HEAD
-		POWERSHELL_UPDATECHECK: string;
-		VSCODE_INJECTION: string;
 		XDG_SESSION_DESKTOP: string;
-		GNOME_TERMINAL_SERVICE: string;
-		XMODIFIERS: string;
-=======
-		XDG_SESSION_DESKTOP: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 		XAUTHORITY: string;
 		LS_COLORS: string;
 		VSCODE_GIT_IPC_HANDLE: string;
+		GNOME_TERMINAL_SERVICE: string;
 		TERM_PROGRAM: string;
 		npm_lifecycle_script: string;
 		SSH_AUTH_SOCK: string;
@@ -321,19 +215,16 @@ declare module '$env/dynamic/private' {
 		npm_package_version: string;
 		npm_lifecycle_event: string;
 		QT_ACCESSIBILITY: string;
+		NO_AT_BRIDGE: string;
 		GDMSESSION: string;
 		LESSCLOSE: string;
+		npm_package_dev_optional: string;
 		GPG_AGENT_INFO: string;
-<<<<<<< HEAD
-		QT_IM_MODULE: string;
-		LESS_TERMCAP_md: string;
-=======
-		GJS_DEBUG_OUTPUT: string;
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		XDG_VTNR: string;
 		npm_config_globalconfig: string;
 		npm_config_init_module: string;
+		npm_package_peer: string;
 		PWD: string;
 		npm_config_globalignorefile: string;
 		npm_execpath: string;
@@ -341,21 +232,16 @@ declare module '$env/dynamic/private' {
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
 		npm_command: string;
-<<<<<<< HEAD
 		VTE_VERSION: string;
-		MEMORY_PRESSURE_WRITE: string;
-=======
->>>>>>> 16caa78df92f3fdfd2fd3b78c9290fb8abc61e1d
 		INIT_CWD: string;
 		EDITOR: string;
-		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
 }
 
 /**
- * Similar to [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), but only includes variables that begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
+ * Similar to [`$env/dynamic/private`](https://svelte.dev/docs/kit/$env-dynamic-private), but only includes variables that begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
  * 
  * Note that public dynamic environment variables must all be sent from the server to the client, causing larger network requests — when possible, use `$env/static/public` instead.
  * 
