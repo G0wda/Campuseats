@@ -31,7 +31,6 @@ declare module '$env/static/private' {
 	export const USER: string;
 	export const LESS_TERMCAP_ue: string;
 	export const npm_config_user_agent: string;
-	export const npm_config_host: string;
 	export const DOTNET_CLI_TELEMETRY_OPTOUT: string;
 	export const XDG_SESSION_TYPE: string;
 	export const GIT_ASKPASS: string;
@@ -158,7 +157,6 @@ declare module '$env/dynamic/private' {
 		USER: string;
 		LESS_TERMCAP_ue: string;
 		npm_config_user_agent: string;
-		npm_config_host: string;
 		DOTNET_CLI_TELEMETRY_OPTOUT: string;
 		XDG_SESSION_TYPE: string;
 		GIT_ASKPASS: string;

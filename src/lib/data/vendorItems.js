@@ -134,5 +134,39 @@ export const vendorItems = {
                 image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
             } 
         ]
+    },
+    'nest' : {
+        title: 'North East',
+        items : [
+            {
+                id : 'nest1',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            },
+            {
+                id : 'nest2',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            },
+            {
+                id : 'nest3',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            },
+            {
+                id : 'nest4',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            } 
+        ]
+    
     }
 }

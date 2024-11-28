@@ -1,0 +1,169 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.C-AGHgb-.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js",
+      ".svelte-kit/generated/client-optimized/nodes/3.js",
+      ".svelte-kit/generated/client-optimized/nodes/4.js",
+      ".svelte-kit/generated/client-optimized/nodes/5.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.BbSc2nQX.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_cartStore.Df5Pd-qO.js",
+      "_entry.YSNzN-GH.js"
+    ],
+    "css": [
+      "_app/immutable/assets/0.DlayFSCc.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.DEmUCqxL.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_stores.D42pt2Xz.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.CD3pEP2j.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_cartStore.Df5Pd-qO.js",
+      "_FoodCard.dCOzts_P.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/3.js": {
+    "file": "_app/immutable/nodes/3.BTj9VFi-.js",
+    "name": "nodes/3",
+    "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_cartStore.Df5Pd-qO.js",
+      "_FoodCard.dCOzts_P.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/4.js": {
+    "file": "_app/immutable/nodes/4.DW-4iK9N.js",
+    "name": "nodes/4",
+    "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_cartStore.Df5Pd-qO.js",
+      "_stores.D42pt2Xz.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/5.js": {
+    "file": "_app/immutable/nodes/5.CB-KiGXq.js",
+    "name": "nodes/5",
+    "src": ".svelte-kit/generated/client-optimized/nodes/5.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_cartStore.Df5Pd-qO.js",
+      "_FoodCard.dCOzts_P.js",
+      "_entry.YSNzN-GH.js",
+      "_stores.D42pt2Xz.js"
+    ]
+  },
+  "_FoodCard.dCOzts_P.js": {
+    "file": "_app/immutable/chunks/FoodCard.dCOzts_P.js",
+    "name": "FoodCard",
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js",
+      "_cartStore.Df5Pd-qO.js"
+    ]
+  },
+  "_cartStore.!~{00d}~.js": {
+    "file": "_app/immutable/assets/cartStore.CLpmFrbv.css",
+    "src": "_cartStore.!~{00d}~.js"
+  },
+  "_cartStore.Df5Pd-qO.js": {
+    "file": "_app/immutable/chunks/cartStore.Df5Pd-qO.js",
+    "name": "cartStore",
+    "imports": [
+      "_index.ULM4vl0B.js",
+      "_scheduler.I_uqlSKq.js",
+      "_index.Dnod5cps.js"
+    ],
+    "css": [
+      "_app/immutable/assets/cartStore.CLpmFrbv.css"
+    ]
+  },
+  "_entry.YSNzN-GH.js": {
+    "file": "_app/immutable/chunks/entry.YSNzN-GH.js",
+    "name": "entry",
+    "imports": [
+      "_scheduler.I_uqlSKq.js",
+      "_index.ULM4vl0B.js"
+    ]
+  },
+  "_index.Dnod5cps.js": {
+    "file": "_app/immutable/chunks/index.Dnod5cps.js",
+    "name": "index",
+    "imports": [
+      "_scheduler.I_uqlSKq.js"
+    ]
+  },
+  "_index.ULM4vl0B.js": {
+    "file": "_app/immutable/chunks/index.ULM4vl0B.js",
+    "name": "index",
+    "imports": [
+      "_scheduler.I_uqlSKq.js"
+    ]
+  },
+  "_scheduler.I_uqlSKq.js": {
+    "file": "_app/immutable/chunks/scheduler.I_uqlSKq.js",
+    "name": "scheduler"
+  },
+  "_stores.D42pt2Xz.js": {
+    "file": "_app/immutable/chunks/stores.D42pt2Xz.js",
+    "name": "stores",
+    "imports": [
+      "_entry.YSNzN-GH.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.Co_PTj2R.js",
+    "name": "entry/start",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_entry.YSNzN-GH.js"
+    ]
+  }
+}
