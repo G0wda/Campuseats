@@ -8,7 +8,6 @@
   export let price;
   export let image;
   export let category;
-  export let description;
 
   function handleAddToCart(e) {
     e.preventDefault();
@@ -43,7 +42,7 @@
           <ShoppingCart size={16} />
         </button>
       </div>
-      <p class="text-sm text-gray-500 line-clamp-2">{description}</p>
+     
     </div>
   </div>
 </a>
