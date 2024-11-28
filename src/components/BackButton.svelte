@@ -15,7 +15,7 @@
   
   <button 
     on:click={goBack} 
-    class=" bg-orange-500 text-white py-2 px-4 rounded-lg font-bold shadow-md hover:bg-orange-600 hover:scale-105 hover:shadow-lg transition transform active:scale-95"
+    class=" bg-slate-900 text-white py-2 px-4 rounded-lg font-bold shadow-md hover:bg-orange-600 hover:scale-105 hover:shadow-lg transition transform active:scale-95"
   >
     ← Back
   </button>

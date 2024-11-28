@@ -75,28 +75,61 @@ export const vendorItems = {
             {
                 id : 'rts1',
                 name : 'Fried Rice',
-                category: 'kitex',
+                category: '',
                 price : 70,
                 image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
             },
             {
                 id : 'rts2',
                 name : 'Fried Rice',
-                category: 'kitex',
+                category: '',
                 price : 70,
                 image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
             },
             {
                 id : 'rts3',
                 name : 'Fried Rice',
-                category: 'kitex',
+                category: '',
                 price : 70,
                 image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
             },
             {
                 id : 'rts4',
                 name : 'Fried Rice',
-                category: 'kitex',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            } 
+        ]
+    },
+    'nmk' : {
+        title: 'Namma Kudla',
+        items : [
+            {
+                id : 'nmk1',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            },
+            {
+                id : 'nmk2',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            },
+            {
+                id : 'nmk3',
+                name : 'Fried Rice',
+                category: '',
+                price : 70,
+                image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
+            },
+            {
+                id : 'nmk4',
+                name : 'Fried Rice',
+                category: '',
                 price : 70,
                 image : 'https://images.unsplash.com/photo-1601050690597-df0568f70950'
             } 

@@ -24,7 +24,7 @@
         alt={name}
         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
       />
-      <div class="absolute top-2 right-2 bg-orange-500 text-white px-2 py-1 rounded-full text-sm">
+      <div class="absolute top-2 right-2 bg-slate-900 text-white px-2 py-1 rounded-full text-sm">
         ₹{price}
       </div>
     </div>
@@ -36,7 +36,7 @@
         </div>
         <button
           on:click={handleAddToCart}
-          class="bg-orange-600 text-white p-1.5 rounded-full hover:bg-orange-700 transition-colors"
+          class="bg-slate-900 text-white p-1.5 rounded-full hover:bg-slate-700 transition-colors"
           aria-label="Add {name} to cart"
         >
           <ShoppingCart size={16} />
