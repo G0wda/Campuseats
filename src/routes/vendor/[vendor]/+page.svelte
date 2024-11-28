@@ -1,14 +1,15 @@
 <script>
   import FoodCard from '$lib/components/FoodCard.svelte';
   import BackButton from '/src/components/BackButton.svelte';
-  export let data;
-  const { categoryData } = data;
+  import { page } from '$app/stores';
+  $: category = $page.params.vendor;
+  $: categoryData = $page.data.categoryData;
 </script>
 
 {#if categoryData}
   <div class="py-6">
     <BackButton />
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="max-w-7xl mx-auto px-4" key={$page.params.vendor}>
       <div class="text-center mb-8">
         <h1 class="text-3xl font-bold text-gray-800 mb-2">{categoryData.title}</h1>
         {#if categoryData.description}
