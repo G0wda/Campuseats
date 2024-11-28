@@ -1,5 +1,5 @@
 {
-  "name": "college-canteen",
+  "name": "campuseats",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sveltejs/adapter-vercel": "^5.4.8",
     "@sveltejs/kit": "^2.5.4",
     "lucide-svelte": "^0.344.0",
     "svelte": "^4.2.12",
