@@ -3,13 +3,7 @@
   
     // Function to handle the back navigation
     const goBack = () => {
-      if (history.length > 1) {
-        // If there's history, go back
-        history.back();
-      } else {
-        // Otherwise, navigate to a default route (e.g., home)
-        goto('/');
-      }
+      goto('/');
     };
   </script>
   
