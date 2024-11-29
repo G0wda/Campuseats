@@ -17,6 +17,9 @@
   const closeMobileMenu = () => {
     isMobileMenuOpen = false;
   };
+  $: if ($page.url.pathname) {
+    closeMobileMenu();
+  }
 </script>
 
 <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
@@ -29,7 +32,7 @@
       </a>
       
       <!-- Desktop Menu -->
-      <div class="hidden md:flex space-x-8">
+      <div class="hidden md:flex justify-around space-x-8">
         <SubNavBar {vendors}/>
       </div>
 
