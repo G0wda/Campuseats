@@ -10,7 +10,7 @@
   <section class="relative h-[60vh] flex items-center justify-center">
     <div class="absolute inset-0">
       <img
-        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+        src="/hero.jpeg"
         alt="Hero"
         class="w-full h-full object-cover"
       />
